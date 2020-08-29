@@ -7,13 +7,11 @@ first-call resolution, and customer sentiment. This KPI is used to identify whic
 and which ones are performing unsatisfactory. 
 
 
-####
-CODE-
-
-
+##########-->>CODE
 data tkt;
 set sasuser.ticket_all;
 run;
+
 
 data tkt_open1;
 set sasuser.ticket_all;
@@ -45,11 +43,9 @@ select AgentName,Status, count(*) as count1 from work.B group by AgentName, Stat
 quit;
 
 
-
 data sasuser.tkt_new;
 set abc;
 run;
-
 
 
 data EY1 ;
@@ -62,10 +58,7 @@ create table wef as select AgentName, count(*) as count from work.EY1 group by A
 quit;  
 
 
-
-
-PDF-
-
+PDF output using ODS statement-
 
 ods pdf file="C:\Documents and Settings\sasadm\Desktop\tkt.pdf";
 proc print data=work.Ey1;
@@ -79,7 +72,7 @@ ods pdf close;
 
 ##########
 
-SCRIPT_
+SCRIPT-->>
 I used to get a weekly/monthly/ file which contains data of tickets which is
 raised to our concerned team to resolve.
 
@@ -97,7 +90,7 @@ These reports helps to understand the ticket flow in our helpdesk and help us
 with allocating resources accordingly.
 
 
-##
+####
 
 1.The ticket analysis visualisation provides a break down of the different type of 
   tickets being submitted to our helpdesk.
