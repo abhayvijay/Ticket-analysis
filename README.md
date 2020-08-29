@@ -124,6 +124,16 @@ of the client till date and after that we analyse it and see the ticket trends.
 
 
 
+Questions-
+1. Find the number of Ticket raised Monthly/Yearly
+2. Find the number of different types of tcikets
+3. Number of tickets solved by each agents in a month
+4. Calculate tcikets turnaround time for each cataegory
+5. Number of open tickets in a months 
+6. Largest turnarount time for each category
+7. Least time taking tickets for eac category
+8. Graphical represenation of different tickets for a year and month wise
+9. Escalated tickets with types
 
 
  
